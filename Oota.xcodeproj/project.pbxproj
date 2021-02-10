@@ -13,6 +13,15 @@
 		EB66F56125D3F41600FF2883 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB66F55F25D3F41600FF2883 /* Main.storyboard */; };
 		EB66F56325D3F41800FF2883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB66F56225D3F41800FF2883 /* Assets.xcassets */; };
 		EB66F56625D3F41800FF2883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB66F56425D3F41800FF2883 /* LaunchScreen.storyboard */; };
+		EB66F57825D3F43F00FF2883 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB66F56F25D3F43F00FF2883 /* Lato-Bold.ttf */; };
+		EB66F57925D3F43F00FF2883 /* JosefinSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB66F57025D3F43F00FF2883 /* JosefinSans-Bold.ttf */; };
+		EB66F57A25D3F43F00FF2883 /* JosefinSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB66F57125D3F43F00FF2883 /* JosefinSans-Light.ttf */; };
+		EB66F57B25D3F43F00FF2883 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB66F57225D3F43F00FF2883 /* Lato-Regular.ttf */; };
+		EB66F57C25D3F43F00FF2883 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB66F57325D3F43F00FF2883 /* Ubuntu-Regular.ttf */; };
+		EB66F57D25D3F43F00FF2883 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB66F57425D3F43F00FF2883 /* Ubuntu-Bold.ttf */; };
+		EB66F57E25D3F43F00FF2883 /* JosefinSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB66F57525D3F43F00FF2883 /* JosefinSans-Regular.ttf */; };
+		EB66F57F25D3F43F00FF2883 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB66F57625D3F43F00FF2883 /* Lato-Light.ttf */; };
+		EB66F58025D3F43F00FF2883 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB66F57725D3F43F00FF2883 /* Ubuntu-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		EB66F56225D3F41800FF2883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB66F56525D3F41800FF2883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB66F56725D3F41800FF2883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB66F56F25D3F43F00FF2883 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		EB66F57025D3F43F00FF2883 /* JosefinSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Bold.ttf"; sourceTree = "<group>"; };
+		EB66F57125D3F43F00FF2883 /* JosefinSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Light.ttf"; sourceTree = "<group>"; };
+		EB66F57225D3F43F00FF2883 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		EB66F57325D3F43F00FF2883 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		EB66F57425D3F43F00FF2883 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		EB66F57525D3F43F00FF2883 /* JosefinSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Regular.ttf"; sourceTree = "<group>"; };
+		EB66F57625D3F43F00FF2883 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		EB66F57725D3F43F00FF2883 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 		EB66F55825D3F41600FF2883 /* Oota */ = {
 			isa = PBXGroup;
 			children = (
+				EB66F56E25D3F43F00FF2883 /* fonts */,
 				EB66F55925D3F41600FF2883 /* AppDelegate.swift */,
 				EB66F55B25D3F41600FF2883 /* SceneDelegate.swift */,
 				EB66F55D25D3F41600FF2883 /* ViewController.swift */,
@@ -65,6 +84,22 @@
 				EB66F56725D3F41800FF2883 /* Info.plist */,
 			);
 			path = Oota;
+			sourceTree = "<group>";
+		};
+		EB66F56E25D3F43F00FF2883 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EB66F56F25D3F43F00FF2883 /* Lato-Bold.ttf */,
+				EB66F57025D3F43F00FF2883 /* JosefinSans-Bold.ttf */,
+				EB66F57125D3F43F00FF2883 /* JosefinSans-Light.ttf */,
+				EB66F57225D3F43F00FF2883 /* Lato-Regular.ttf */,
+				EB66F57325D3F43F00FF2883 /* Ubuntu-Regular.ttf */,
+				EB66F57425D3F43F00FF2883 /* Ubuntu-Bold.ttf */,
+				EB66F57525D3F43F00FF2883 /* JosefinSans-Regular.ttf */,
+				EB66F57625D3F43F00FF2883 /* Lato-Light.ttf */,
+				EB66F57725D3F43F00FF2883 /* Ubuntu-Light.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +159,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB66F57C25D3F43F00FF2883 /* Ubuntu-Regular.ttf in Resources */,
 				EB66F56625D3F41800FF2883 /* LaunchScreen.storyboard in Resources */,
 				EB66F56325D3F41800FF2883 /* Assets.xcassets in Resources */,
+				EB66F57F25D3F43F00FF2883 /* Lato-Light.ttf in Resources */,
+				EB66F58025D3F43F00FF2883 /* Ubuntu-Light.ttf in Resources */,
+				EB66F57E25D3F43F00FF2883 /* JosefinSans-Regular.ttf in Resources */,
 				EB66F56125D3F41600FF2883 /* Main.storyboard in Resources */,
+				EB66F57A25D3F43F00FF2883 /* JosefinSans-Light.ttf in Resources */,
+				EB66F57B25D3F43F00FF2883 /* Lato-Regular.ttf in Resources */,
+				EB66F57825D3F43F00FF2883 /* Lato-Bold.ttf in Resources */,
+				EB66F57925D3F43F00FF2883 /* JosefinSans-Bold.ttf in Resources */,
+				EB66F57D25D3F43F00FF2883 /* Ubuntu-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.oota.Oota;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +359,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.oota.Oota;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
